@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<h3>Álcool ou Gasolina?</h3>
+
+
+<script>
+	function pularLinha () {
+		document.write("<br><br><br>");
+		document.write ("<br><br><br>");
+	}
+	function escreva (frase){
+		document.write(frase);
+		pularLinha();
+	}
+
+	var tanque = 40;
+	var distanciaGasolina = 480;
+	var distanciaAlcool = 300;
+	
+	escreva ("A média de quilomêtros rodados com 1 litro de gasolina é de " + distanciaGasolina/tanque + " km/L" );
+	escreva ("A média de quilomêtros rodados com 1 litro de alcool é de" + distanciaAlcool/tanque + " km/L");
+	escreva ("O combustivel que teve melhor aproveitamento foi a gasolina!");
+	
+
+
+</script>
